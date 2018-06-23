@@ -1,0 +1,127 @@
+body{
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    /*font-family: 'Quattrocento', serif;*/
+    line-height: 1.4em;
+    color: black;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-top: 3%;
+    max-width: 780px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: #72acd6;
+    font-weight: bold;
+}
+h2{
+    text-align: left;
+    color: #72acd6;
+    font-weight: bold;
+}
+h3 span{
+    float:right;
+}
+p{
+    margin-top:-18px;
+}
+p.bottom{
+    padding-bottom: 25px;
+    padding-right: 100%;
+    clear-after: both;
+}
+p.bottomest{
+    padding-bottom: 50px;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+h5{
+    font-size: 30px;
+    display: inline-block;
+}
+ul{
+    margin-top:-14px;
+    padding:0 0 0 15px;
+}
+.column{
+    /*margin: -20px 50px 20px 10px;*/
+    display: flex;
+    line-height: 1.5em;
+}
+.column h3{
+    margin-right: 15vw;
+}
+.icons{
+    color: black;
+    text-align: center;
+
+    word-spacing: 0.6em;
+    font-size: 30px;
+    display: block;
+}
+.icons a{
+    color: black;
+    text-align: right;
+    padding: 5px;
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+.icons a:hover{
+    color: #72acd6;
+}
+.sidebar {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+}
+.sidebar a {
+    color: black;
+    text-align: right;
+    padding: 5px;
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    color: #72acd6;
+    background-color: white;
+}
+.sidebar a:hover span {
+    visibility: visible;
+    opacity: 3;
+}
+.sidebar a span {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    color: #72acd6;
+    font-size: 20px;
+}
+.sidebar a i {
+    width: 40px;
+    text-align: center;
+}
+.download{
+    font-size: 20px;
+    margin: auto;
+    padding: 40%;
+}
+.download a{
+    text-decoration: none;
+    color: black;
+}
+.download a:hover{
+    color: #72acd6;
+    text-decoration: none;
+    margin: auto;
+}
+a{
+    color: #671180;
+}
+a:hover{
+    color: #72acd6;
+}

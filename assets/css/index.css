@@ -1,0 +1,91 @@
+body{
+    /*font-family: 'Poiret One', serif;*/
+    /*font-weight: 900;*/
+    font-family: 'Quattrocento', serif;
+    color: black;
+    padding-right: 12%;
+    padding-left: 12%;
+    padding-top: 5%;
+}
+h1{
+    text-align: center;
+    color: #72acd6;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
+p{
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 20px;
+}
+
+.main {
+    margin: auto;
+    max-width: 815px;
+}
+.sidebar {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+}
+.sidebar a {
+    color: black;
+    text-align: right;
+    padding: 5px;
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    color: #72acd6;
+    background-color: white;
+}
+.sidebar a:hover span {
+    visibility: visible;
+    opacity: 3;
+}
+.sidebar a span {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s;
+    color: #72acd6;
+    font-size: 20px;
+}
+.sidebar a i {
+    width: 40px;
+    text-align: center;
+}
+.sidepic{
+    min-width: 240px;
+    width: 35%;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+.sig{
+    width: 200px;
+}
+.icons{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 0.6em;
+    font-size: 30px;
+    display: block;
+}
+.icons a{
+    color: black;
+}
+.icons a:hover{
+    color: #72acd6;
+}
+a{
+    color: #671180;
+}
+a:hover{
+    color: #72acd6;
+}
