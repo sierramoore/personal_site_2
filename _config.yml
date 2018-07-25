@@ -2,11 +2,12 @@
 title: Sierra Moore
 description: "front end web developer"
 keywords: web developer, personal site, freelance web developer, front end web developer, front-end web developer
-baseurl: "" # the subpath of your site, e.g. /blog
+
 url: https://sierramoore.com
 github_username:  sierramoore
 email: sierra.v.moore@gmail.com
 repository: https://github.com/sierramoore/personal_site_2
+google_analytics: UA-122925196-1
 
 
 exclude: [".idea/"]
@@ -14,13 +15,12 @@ exclude: [".idea/"]
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
 
 plugins:
   - jekyll-sitemap
-#  - jekyll-autoprefixer
+  - jekyll-autoprefixer
 
 autoprefixer:
   browsers:
     - last 10 versions
+
