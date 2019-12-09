@@ -1,7 +1,7 @@
 body{
     /*font-family: 'Poiret One', serif;*/
     /*font-weight: 900;*/
-    font-family: 'Quattrocento', serif;
+    font-family: 'Montserrat', sans-serif;
     color: black;
     padding-right: 12%;
     padding-left: 12%;
@@ -65,7 +65,7 @@ p{
     width: 35%;
     padding-top: 8px;
     padding-right: 10px;
-    border-radius: 10%;
+    /*box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);*/
 }
 .sig{
     width: 200px;
